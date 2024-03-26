@@ -1,0 +1,41 @@
+.inputSenhaContainer{
+    background-color: #D9D9D9;
+    display: flex; /* Utilize flexbox para alinhar os elementos */
+    align-items: center; /* Centralize verticalmente */
+    width: 375px; /* Defina a largura do input conforme necessário */
+    height: 37px;
+    border-radius: 18px;
+    border: none;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    font-size: 15px;
+    color: rgb(70, 69, 69);
+}
+
+.inputEmailContainer:focus {
+    outline: none;
+}
+
+.inputSenhaLogar{
+    background-color: transparent;
+    border: none;
+    color: rgb(70, 69, 69);
+    font-size: 14px;
+    width: 300px;
+    flex: 1;
+}
+.inputSenhaLogar:focus{
+    outline: none;
+}
+
+#idInputSenha:focus{
+    outline: none;
+}
+
+.iconWrapper {
+    font-size: 22px;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    filter: opacity(0.75)
+}
+

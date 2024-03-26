@@ -1,0 +1,8 @@
+.iconCalendario{
+    display: flex;
+}
+
+#iconCalendario{
+    font-size: 20px;
+    color: rgb(68, 67, 67);
+}

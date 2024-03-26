@@ -1,0 +1,31 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+}
+  
+body{
+    height: 100vh;
+    background: linear-gradient(to bottom, #D3D4D9, #25BBAA, #177DA9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}  
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.userData{
+    margin-bottom: 10px;
+    margin-left: 48px;
+}
+
+.teste{
+    display: flex;
+    align-items: center;
+    
+}

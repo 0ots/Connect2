@@ -1,0 +1,9 @@
+.iconUser{
+    display: flex;
+}
+
+#idIconUser{
+    font-size: 20px;
+    color: rgb(68, 67, 67);
+}
+

@@ -1,0 +1,72 @@
+*{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+}
+
+body{
+  height: 100vh;
+  background: linear-gradient(to bottom, #D3D4D9, #25BBAA, #177DA9);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.containerLogar{
+  display: flex;
+  align-items: center;
+
+}
+
+.tituloEmpresaLogar{
+  
+}
+.slogamEmpresaLogar{
+  margin-top: -35px;
+}
+.explicaoEmpresaLogar{
+font-size: 20px;
+margin-top: -15px;
+}
+.solicitacaoEmpresaLogar{
+font-size: 18px;
+margin-top: -10px;
+}
+.iconsRedesSociaisEmpresaLogar{
+display: flex;
+margin-top: -25px;
+font-size: 22px;
+}
+.iconRedesSociaisEmpresaLogar{
+  margin-right: 5px;
+  cursor: pointer;
+}
+.interacoesUsuarioLogar{
+  margin-top: 105px;
+  margin-left: 14px;
+}
+.InputEmailLogar{
+display: flex;
+align-items: center;
+margin-top: 20px;
+}
+.InputSenhaLogar{
+margin-top: 15px;
+}
+.labelEsqueciMinhaSenha{
+margin-top: 10px;
+text-align: right;
+}
+.BotaoLogar{
+margin-top: 10px;
+}
+
+.labelCriarConta{
+margin-top: 10px;
+}
+
+.LogoEmpresaLogar{
+  display: flex;
+  justify-content: center;
+  margin-bottom: -30px;
+}
