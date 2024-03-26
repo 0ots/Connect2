@@ -17,6 +17,11 @@
     outline: none;
 }
 
+.inputFotoContainer:hover{
+    cursor: pointer;
+    opacity: 0.75;
+}
+
 .inputEmailLogar{
     background-color: transparent;
     border: none;

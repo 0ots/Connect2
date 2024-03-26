@@ -15,7 +15,7 @@
     outline: none;
 }
 
-.inputEmailLogar{
+.inputEmail{
     background-color: transparent;
     border: none;
     color: rgb(70, 69, 69);
@@ -24,14 +24,13 @@
     flex: 1;
 }
 
-.inputEmailLogar:focus{
+.inputEmail:focus{
     outline: none;
 }
 
-#idInputEmail:focus{
+.inputEmail:focus{
     outline: none;
 }
-
 
 .iconWrapper {
     font-size: 22px;

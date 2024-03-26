@@ -29,3 +29,13 @@ body{
     align-items: center;
     
 }
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+    display: none;
+}
+
+/* Para Firefox */
+input[type="date"] {
+    appearance: none;
+    -moz-appearance: textfield;
+}

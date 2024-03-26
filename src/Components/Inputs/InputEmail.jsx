@@ -8,7 +8,7 @@ export default function InputEmailLogar() {
             <div className={style.iconWrapper}>
                 <IconEmailLogar/>
             </div>
-            <input className={style.inputEmailLogar} id={style.idInputEmail} type="text" placeholder='Insira seu e-mail'/>
+            <input className={style.inputEmail} id={style.idInputEmail} type="text" placeholder='Insira seu e-mail'/>
         </div>        
     );
 }
