@@ -13,7 +13,7 @@ body{
 }
 
 #bodyHome{
-  background: linear-gradient(to bottom, #D3D4D9, #25BBAA, #177DA9);
+  background: linear-gradient(to top, #D3D4D9, #25BBAA, #177DA9);
   display: flex;
   justify-content: center;
   align-items: center;
