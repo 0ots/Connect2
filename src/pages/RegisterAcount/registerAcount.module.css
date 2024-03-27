@@ -1,17 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
 
-*{
-    font-family: 'Montserrat', sans-serif;
-    font-weight: normal;
-}
   
-body{
-    height: 100vh;
-    background: linear-gradient(to bottom, #D3D4D9, #25BBAA, #177DA9);
+#bodyRegisterAcount{
     display: flex;
     justify-content: center;
     align-items: center;
-    overflow: hidden;
+    background: linear-gradient(to top, #D3D4D9, #25BBAA, #177DA9);
 }  
 
 .container{

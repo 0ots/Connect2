@@ -7,11 +7,16 @@
 
 body{
   height: 100vh;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+#bodyHome{
   background: linear-gradient(to bottom, #D3D4D9, #25BBAA, #177DA9);
   display: flex;
   justify-content: center;
   align-items: center;
-  overflow: hidden;
 }
 
 .containerLogar{

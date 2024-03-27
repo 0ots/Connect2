@@ -10,28 +10,30 @@ import IconLockRecuperarSenha from '../../Components/Icons/IconLockRecuperarSenh
 function ResetPassword() {
   return (
     <>
-    <div className={style.container}>
-      <div className={style.informacoes}>
-        <div>
-            <IconLockRecuperarSenha/>
+    <body id={style.bodyResetpassword}>
+        <div className={style.container}>
+          <div className={style.informacoes}>
+            <div>
+                <IconLockRecuperarSenha/>
+            </div>
+            <div className={style.tituloEsqueceuSenha}>
+                <TituloEsqueceuSenha/>
+            </div>
+            <div className={style.explicacaoEsqueceuSenha}>
+                <ExplicacaoEsqueceuSenha/>
+            </div>
+            <div className={style.inputRecuperarSenha}>
+                <InputEmail/>
+            </div>
+            <div>
+                <ButtonRecuperarSenha/>
+            </div>
+            <div id={style.idVoltarTelaLogin}>
+                <LabelVoltarLogin/>
+            </div>
+          </div>
         </div>
-        <div className={style.tituloEsqueceuSenha}>
-            <TituloEsqueceuSenha/>
-        </div>
-        <div className={style.explicacaoEsqueceuSenha}>
-            <ExplicacaoEsqueceuSenha/>
-        </div>
-        <div className={style.inputRecuperarSenha}>
-            <InputEmail/>
-        </div>
-        <div>
-            <ButtonRecuperarSenha/>
-        </div>
-        <div id={style.idVoltarTelaLogin}>
-            <LabelVoltarLogin/>
-        </div>
-      </div>
-    </div>
+    </body>
     </>
   );
 }

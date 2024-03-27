@@ -19,7 +19,8 @@ import VoltarTelaLogin from '../../Components/Labels/LabelVoltarLogin'
 export default function Registrar(){
     return (
         <>
-            <div className={style.container}>
+        <body id={style.bodyRegisterAcount}>
+        <div className={style.container}>
                 <div>
                     <TituloCrirConta/>
                 </div>
@@ -62,6 +63,8 @@ export default function Registrar(){
                             <VoltarTelaLogin/>
                     </div>
             </div>
+        </body>
+            
         </>
     )
 }
