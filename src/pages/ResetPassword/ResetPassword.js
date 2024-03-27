@@ -1,4 +1,4 @@
-import style from'./resetPassword.module.css';
+import style from './resetPassword.module.css'
 
 import TituloEsqueceuSenha from '../../Components/Labels/LabelTituloEsqueceuSenha'
 import ExplicacaoEsqueceuSenha from '../../Components/Labels/LabelExplicacaoEsqueceuSenha'
