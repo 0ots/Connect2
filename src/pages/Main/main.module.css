@@ -1,3 +1,35 @@
 #Main{
     background-color: #D3D4D9;
 }
+
+.abaLateralEsquerda{
+    border: 2px solid black;
+    width: 325px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.containerMainIcons{
+
+}
+
+.containerMainIcons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mainIcon{
+    margin-bottom: 10px;
+}
+
+.containerMainOptions{
+    display: flex;
+    align-items: center;
+}
+
+.containerMainLabels{
+    margin-left: 15px;
+}
