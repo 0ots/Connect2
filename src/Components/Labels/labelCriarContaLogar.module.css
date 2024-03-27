@@ -1,7 +1,9 @@
 .labelCriarConta{
     color: white;
+    font-size: 14px;
 }
 
-#idCriarConta{
+#idCriarConta:hover{
     cursor: pointer;
+    font-weight: bold;
 }

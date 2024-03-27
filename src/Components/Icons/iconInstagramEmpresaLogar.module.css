@@ -1,3 +1,7 @@
 .iconInstagram{
     color: aliceblue;
 }
+
+.iconInstagram:hover{
+    scale: 1.075;
+}

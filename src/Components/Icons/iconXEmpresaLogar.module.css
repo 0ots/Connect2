@@ -1,3 +1,7 @@
 .iconXLogar{
     color: aliceblue;
 }
+
+.iconXLogar:hover{
+    scale: 1.075;
+}

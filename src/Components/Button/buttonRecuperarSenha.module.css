@@ -1,0 +1,15 @@
+.inputButtonRecuperarSenha{
+    background: linear-gradient(to bottom, #4BC6FB, #2E95C1, #0A6A93);
+    width: 375px;
+    height: 37px;
+    border: none;
+    border-radius: 18px;
+    color: white;
+    margin-top: 15px;
+}
+
+.inputButtonRecuperarSenha:hover{
+    scale: 1.015;
+    filter: brightness(1.2);
+    cursor: pointer;
+}

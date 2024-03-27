@@ -1,3 +1,7 @@
 .iconLinkedinLogar{
     color: aliceblue;
 }
+
+.iconLinkedinLogar:hover{
+    scale: 1.075;
+}

@@ -19,15 +19,36 @@ body{
     align-items: center;
 }
 
+.UserDatas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .userData{
     margin-bottom: 10px;
     margin-left: 48px;
 }
 
-.teste{
+
+#idVoltarTelaLogin{
+    margin-left: 187.5px;
+    margin-top: -22px;
+
+}
+
+
+.containerUserDatas{
     display: flex;
     align-items: center;
     
+}
+
+.teste{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 input[type="date"]::-webkit-calendar-picker-indicator {

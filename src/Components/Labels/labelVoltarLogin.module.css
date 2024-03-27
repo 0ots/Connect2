@@ -1,0 +1,12 @@
+.labelVoltarLogin{
+    color: white;
+    font-size: 14px;
+}
+
+#idLabelVoltarLogin{
+    cursor: pointer;
+}
+
+#idLabelVoltarLogin:hover{
+    font-weight:bold;
+}

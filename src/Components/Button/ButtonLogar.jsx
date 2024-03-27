@@ -1,12 +1,7 @@
-'use client'
-import style from './buttonLogar.module.css'
+import style from './buttonLogar.module.css';
 
-export default function ButtonLogar(){
-    const handleButtonLogarClick = () => {
-        
-    }
+export default function ButtonLogar() {
     return (
-    <button className={style.buttonLogar} onClick={handleButtonLogarClick}>Logar</button>
-    )
+        <button className={style.buttonLogar}>Logar</button>
+    );
 }
-

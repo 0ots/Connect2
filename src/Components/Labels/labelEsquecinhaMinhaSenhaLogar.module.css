@@ -1,7 +1,10 @@
 .esqueciMinhaSenha{
     color: white;
+    font-size: 14px;
+    
 }
 
-#idEsqueciMinhaSenha{
+#idEsqueciMinhaSenha:hover{
     cursor: pointer;
+    font-weight: bold;
 }

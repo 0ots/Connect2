@@ -13,6 +13,8 @@ import DataNascimento from '../../Components/Inputs/InputDataNascimento'
 
 import ButtonRegistrar from '../../Components/Button/ButtonRegistrar'
 
+import VoltarTelaLogin from '../../Components/Labels/LabelVoltarLogin'
+
 
 export default function Registrar(){
     return (
@@ -27,16 +29,15 @@ export default function Registrar(){
                 <div>
                     <ExplicaoCriarContaParte2/>
                 </div>
-        
-                <div className={style.teste}>
-                    <div className={style.UserPhoto}>
-                        <div>
-                            <InputFoto/>
+                    <div className={style.containerUserDatas}>
+                        <div className={style.UserPhoto}>
+                            <div>
+                                <InputFoto/>
+                            </div>
                         </div>
-                    </div>
-                    <div className={style.UserDatas}> 
-                        <div className={style.userData}>
-                            <InputNome/>
+                        <div className={style.UserDatas}> 
+                            <div className={style.userData}>
+                                <InputNome/>
                         </div>
                         <div className={style.userData}>
                             <InputEmail/>
@@ -53,8 +54,11 @@ export default function Registrar(){
                         <div className={style.userData}>
                             <ButtonRegistrar/>
                         </div>
+                        </div>
                     </div>
-                </div>
+                    <div id={style.idVoltarTelaLogin}>
+                            <VoltarTelaLogin/>
+                    </div>
             </div>
         </>
     )

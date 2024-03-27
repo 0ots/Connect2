@@ -7,11 +7,9 @@ import IconEyeClose from '../Icons/IconOlhoFechadoLogar.jsx'
 
 export default function InputSenhaLogar(){
     const [isPasswordVisible, setIsPasswordVisible] = useState(false); // Estado para controlar a visibilidade da senha
-
     function handleIconClick(){
         setIsPasswordVisible(prevState => !prevState); // Inverte o estado de visibilidade da senha quando o ícone é clicado
     }
-
     return (
         <div className={style.inputSenhaContainer}>
             <div className={style.iconWrapper}>

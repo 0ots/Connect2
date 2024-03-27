@@ -1,0 +1,16 @@
+.inputEmailRecuperarSenha{
+    background-color: #D9D9D9;
+    border: none;
+    border-radius: 18px;
+    width: 375px;
+    height: 37px;
+    outline: none;
+}
+
+.inputEmailRecuperarSenha:focus{
+    outline: none;
+}
+
+#idInputEmailRecuperarSenha:focus{
+    outline: none;
+}
