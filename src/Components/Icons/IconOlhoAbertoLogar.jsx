@@ -4,7 +4,7 @@ import style from './iconOlhoAbertoLogar.module.css'
 export default function Icon() {
     return (
         <div>
-            <FaEye className={style.iconEmailLogar} id="iconOlhoAbertoLogar"/>
+            <FaEye className={style.iconEmailLogar} id={style.idIconOlhoAberto}/>
         </div>
     );
 }
