@@ -26,10 +26,10 @@
 .inputSenhaLogar:focus{
     outline: none;
 }
-
 #idInputSenha:focus{
     outline: none;
 }
+
 
 .iconWrapper {
     font-size: 22px;
@@ -39,3 +39,16 @@
     filter: opacity(0.75)
 }
 
+
+.iconWrapperEyeOpen{
+    font-size: 22px;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    filter: opacity(0.75);
+    margin-left: 10%;
+}
+
+.idIconWrapperEyeOpen{
+
+}

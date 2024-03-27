@@ -23,11 +23,13 @@ export default function Registrar(){
                 <div>
                     <TituloCrirConta/>
                 </div>
-                <div>
-                    <ExplicaoCriarContaParte1/>
-                </div>
-                <div>
-                    <ExplicaoCriarContaParte2/>
+                <div className={style.teste}>
+                    <div>
+                        <ExplicaoCriarContaParte1/>
+                    </div>
+                    <div>
+                        <ExplicaoCriarContaParte2/>
+                    </div>
                 </div>
                     <div className={style.containerUserDatas}>
                         <div className={style.UserPhoto}>
