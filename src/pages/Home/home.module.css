@@ -1,5 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
 
+@keyframes fadeInAnimation {
+  from {
+      opacity: 0; /* Início da animação com opacidade zero */
+  }
+  to {
+      opacity: 2; /* Fim da animação com opacidade total */
+  }
+}
+
+
 *{
   font-family: 'Montserrat', sans-serif;
   font-weight: normal;
@@ -10,6 +20,7 @@ body{
   overflow: hidden;
   margin: 0;
   padding: 0;
+  animation: fadeInAnimation 1.5s;
 }
 
 #bodyHome{
