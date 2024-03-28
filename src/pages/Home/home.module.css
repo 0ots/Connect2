@@ -5,7 +5,7 @@
       opacity: 0; /* Início da animação com opacidade zero */
   }
   to {
-      opacity: 2; /* Fim da animação com opacidade total */
+      opacity: 1; /* Fim da animação com opacidade total */
   }
 }
 
