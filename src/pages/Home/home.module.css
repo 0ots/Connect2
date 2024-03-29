@@ -24,67 +24,113 @@ body{
 }
 
 #bodyHome{
-  background: linear-gradient(to top, #D3D4D9, #25BBAA, #177DA9);
+  background: linear-gradient(to bottom, #D3D4D9, #25BBAA, #177DA9);
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
 }
 
-.containerLogar{
-  display: flex;
-  align-items: center;
 
+.informacoesEmpresa{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: -20px;
 }
 
 .tituloEmpresaLogar{
-  
+  margin-top: 15px;
 }
 .slogamEmpresaLogar{
   margin-top: -35px;
+  margin-bottom: 87px;
 }
 .explicaoEmpresaLogar{
 font-size: 20px;
 margin-top: -15px;
 }
+
 .solicitacaoEmpresaLogar{
-font-size: 18px;
-margin-top: -10px;
+  font-size: 18px;
+  margin-bottom: 10px;
 }
+
 .iconsRedesSociaisEmpresaLogar{
-display: flex;
-margin-top: -25px;
-font-size: 22px;
+  display: flex;
 }
+
 .iconRedesSociaisEmpresaLogar{
-  margin-right: 5px;
+  font-size: 26px;
+  margin-right: 7px;
   cursor: pointer;
 }
 .interacoesUsuarioLogar{
-  margin-top: 105px;
+  margin-top: -20px;
   margin-left: 14px;
+  flex-direction: column;
+  align-items: center;
 }
+
 .InputEmailLogar{
-display: flex;
-align-items: center;
-margin-top: 20px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
 }
 .InputSenhaLogar{
-margin-top: 15px;
+  margin-top: 15px;
 }
 .labelEsqueciMinhaSenha{
-margin-top: 10px;
-text-align: right;
+  margin-top: 10px;
+  text-align: right;
 }
 .BotaoLogar{
-margin-top: 10px;
+  margin-top: 36px;
 }
 
 .labelCriarConta{
-margin-top: 10px;
+  margin-top: 10px;
 }
 
 .LogoEmpresaLogar{
   display: flex;
   justify-content: center;
-  margin-bottom: -30px;
+  margin-bottom: -40px;
+}
+
+.saudacao{
+  text-align: center;
+  margin-top: -2%;
+  margin-bottom: -5px;
+}
+
+.informacoesEmpresaLogar{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+.solicitacaoEmpresaLogar{
+  margin-bottom: -20px;
+  margin-right: 5px;
+}
+
+
+.utilidades{
+  position: fixed;
+  justify-content: center;
+  align-items: center;
+  margin-top: 180px;
+}
+
+.containerLogar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
