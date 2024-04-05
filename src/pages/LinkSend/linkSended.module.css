@@ -1,0 +1,22 @@
+
+
+.linkSended{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom, #D3D4D9, #25BBAA, #279BCD);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tituloEmailEnviado{
+    margin-top: 70px;
+}
+
+.explicacaoEmailEnviado{
+    margin-top: -28px;
+}

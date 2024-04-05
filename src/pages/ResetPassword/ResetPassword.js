@@ -8,6 +8,11 @@ import LabelVoltarLogin from '../../Components/Labels/LabelVoltarLogin'
 import IconLockRecuperarSenha from '../../Components/Icons/IconLockRecuperarSenha'
 
 function ResetPassword() {
+
+  function handleLabelClick(){
+    document.location.assign('/linksended')
+  }
+
   return (
     <>
     <body id={style.bodyResetpassword}>
@@ -25,7 +30,7 @@ function ResetPassword() {
             <div className={style.inputRecuperarSenha}>
                 <InputEmail/>
             </div>
-            <div className={style.buttonEnviarLink}>
+            <div className={style.buttonEnviarLink} onClick={handleLabelClick}>
                 <ButtonRecuperarSenha/>
             </div>
             <div className={style.VoltarTelaLogin}>

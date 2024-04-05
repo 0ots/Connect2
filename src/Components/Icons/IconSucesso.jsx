@@ -1,4 +1,4 @@
-import style from './iconEmailEnviadoComSucesso.module.css'
+import style from './iconSucesso.module.css'
 import { MdDone } from "react-icons/md";
 
 export default function icon(){
