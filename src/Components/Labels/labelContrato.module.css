@@ -1,0 +1,11 @@
+.termos{
+    color: white;
+    opacity: 0.9;
+    font-size: 12px;
+}
+
+
+#termosClicavel:hover{
+    cursor: pointer;
+    font-weight: bold;
+}

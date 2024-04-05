@@ -13,7 +13,7 @@ function ResetPassword() {
     <body id={style.bodyResetpassword}>
         <div className={style.container}>
           <div className={style.informacoes}>
-            <div>
+            <div className={style.logoRecuperarSenha}>
                 <IconLockRecuperarSenha/>
             </div>
             <div className={style.tituloEsqueceuSenha}>
@@ -25,10 +25,10 @@ function ResetPassword() {
             <div className={style.inputRecuperarSenha}>
                 <InputEmail/>
             </div>
-            <div>
+            <div className={style.buttonEnviarLink}>
                 <ButtonRecuperarSenha/>
             </div>
-            <div id={style.idVoltarTelaLogin}>
+            <div className={style.VoltarTelaLogin}>
                 <LabelVoltarLogin/>
             </div>
           </div>

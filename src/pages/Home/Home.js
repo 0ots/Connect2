@@ -1,6 +1,7 @@
 import style from './home.module.css'
 
 import LogoEmpresaLogar from '../../Components/Images/LogoEmpresaLogar'
+
 import TituloEmpresaLogar from '../../Components/Labels/LabelTituloEmpresaLogar'
 import SlogamEmpresaLogar from '../../Components/Labels/LabelSlogamEmpresaLogar'
 

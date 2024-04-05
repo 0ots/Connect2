@@ -9,7 +9,6 @@
   }
 }
 
-
 *{
   font-family: 'Montserrat', sans-serif;
   font-weight: normal;
@@ -32,7 +31,6 @@ body{
   margin: 0;
   padding: 0;
 }
-
 
 .informacoesEmpresa{
   display: flex;

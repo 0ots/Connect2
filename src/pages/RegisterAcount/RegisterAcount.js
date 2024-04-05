@@ -1,7 +1,9 @@
 import style from './registerAcount.module.css'
+
+import LogoEmpresaLogar from '../../Components/Images/LogoEmpresaLogar'
+
 import TituloCrirConta from '../../Components/Labels/LabelTituloCriarConta'
-import ExplicaoCriarContaParte1 from '../../Components/Labels/LabelExplicacaoCriarContaParte1'
-import ExplicaoCriarContaParte2 from '../../Components/Labels/LabelExplicacaoCriarContaParte2'
+import ExplicaoCriarConta from '../../Components/Labels/LabelExplicacaoCriarConta'
 
 import InputFoto from '../../Components/Inputs/InputFoto'
 
@@ -10,6 +12,8 @@ import InputEmail from '../../Components/Inputs/InputEmail'
 import InputSenha from '../../Components/Inputs/InputSenha'
 import ConfirmarSenha from '../../Components/Inputs/InputConfirmarSenha'
 import DataNascimento from '../../Components/Inputs/InputDataNascimento'
+
+import Termos from '../../Components/Labels/LabelContrato'
 
 import ButtonRegistrar from '../../Components/Button/ButtonRegistrar'
 
@@ -21,15 +25,15 @@ export default function Registrar(){
         <>
         <body id={style.bodyRegisterAcount}>
         <div className={style.container}>
-                <div>
+            <div className={style.logoEmpresa}>
+                <LogoEmpresaLogar/>
+            </div>
+                <div className={style.tituloCriarConta}>
                     <TituloCrirConta/>
                 </div>
-                <div className={style.teste}>
+                <div className={style.agradecimento}>
                     <div>
-                        <ExplicaoCriarContaParte1/>
-                    </div>
-                    <div>
-                        <ExplicaoCriarContaParte2/>
+                        <ExplicaoCriarConta/>
                     </div>
                 </div>
                     <div className={style.containerUserDatas}>
@@ -38,29 +42,36 @@ export default function Registrar(){
                                 <InputFoto/>
                             </div>
                         </div>
-                        <div className={style.UserDatas}> 
+                        <div className={style.centralizacao2}>
+                            <div className={style.UserDatas}> 
+                                <div className={style.userData}>
+                                    <InputNome/>
+                                </div>
                             <div className={style.userData}>
-                                <InputNome/>
-                        </div>
-                        <div className={style.userData}>
-                            <InputEmail/>
-                        </div>
-                        <div className={style.userData}>
-                            <InputSenha/>
-                        </div>
-                        <div className={style.userData}>
-                            <ConfirmarSenha/>
-                        </div>
-                        <div className={style.userData}>
-                            <DataNascimento/>
-                        </div>
-                        <div className={style.userData}>
-                            <ButtonRegistrar/>
-                        </div>
+                                <InputEmail/>
+                            </div>
+                            <div className={style.userData}>
+                                <InputSenha/>
+                            </div>
+                            <div className={style.userData}>
+                                <ConfirmarSenha/>
+                            </div>
+                            <div className={style.userData}>
+                                <DataNascimento/>
+                            </div>
+                            </div>
                         </div>
                     </div>
-                    <div id={style.idVoltarTelaLogin}>
+                    <div className={style.utilidades}>
+                        <div className={style.centralizacao}>
+                            <Termos/>
+                        </div>
+                        <div className={style.centralizacao} id={style.botaoRegistrar}>
+                            <ButtonRegistrar/>
+                        </div>
+                        <div className={style.centralizacao} id={style.idVoltarLogin}>
                             <VoltarTelaLogin/>
+                        </div>
                     </div>
             </div>
         </body>

@@ -21,30 +21,34 @@
     align-items: center;
 }
 
+
+.tituloCriarConta{
+    margin-top: -24px;
+}
+
+.agradecimento{
+    margin-top: -5px;
+}
+
+.containerUserDatas{
+    margin-top: 78px;
+}
+
 .userData{
     margin-bottom: 10px;
     margin-left: 48px;
 }
 
-
-#idVoltarTelaLogin{
-    margin-left: 187.5px;
-    margin-top: -22px;
-
+#botaoRegistrar{
+    margin-top: 33px;
 }
+
 
 
 .containerUserDatas{
     display: flex;
     align-items: center;
     
-}
-
-.teste{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
 
 input[type="date"]::-webkit-calendar-picker-indicator {
@@ -57,6 +61,16 @@ input[type="date"] {
     -moz-appearance: textfield;
 }
 
-.teste{
+.centralizacao2{
     margin-top: -10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.utilidades{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 197px;
 }
