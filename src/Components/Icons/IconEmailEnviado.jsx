@@ -3,6 +3,6 @@ import { IoIosSend } from "react-icons/io";
 
 export default function icon(){
     return (
-            <IoIosSend className={style.iconEmailEnviado}/>
+        <IoIosSend className={style.iconEmailEnviado}/>
     )
 }

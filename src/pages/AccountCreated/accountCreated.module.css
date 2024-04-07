@@ -1,0 +1,24 @@
+.accountCreated{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom, #D3D4D9, #25BBAA, #279BCD);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tituloContaCriada{
+    margin-top: -50px;
+}
+
+.explicacaoContaCriada{
+    margin-top: -20px;
+}
+
+.voltarLogin{
+    margin-top: 0px;
+}
