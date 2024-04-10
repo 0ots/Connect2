@@ -2,17 +2,28 @@
     background-color: #D3D4D9;
 }
 
+
+.containerCentral{
+    display: flex;
+}
+
+
 .abaLateralEsquerda{
-    border: 2px solid black;
-    width: 325px;
+    position: fixed;
+    top: 0; /* Ajuste conforme necessário para definir a distância do topo */
+    left: 0;
+    width: 450px;
     height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 0;
+    padding: 0;
 }
 
-.containerMainIcons{
 
+.logoEmpresa{
+    margin-top: 40px;
 }
 
 .containerMainIcons{
@@ -22,14 +33,119 @@
 }
 
 .mainIcon{
-    margin-bottom: 10px;
+    padding-right: 20px;
 }
 
 .containerMainOptions{
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    margin-top: 60px;
 }
 
 .containerMainLabels{
     margin-left: 15px;
+}
+
+.containerPaginaInicial{
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.containerMeuPerfil{
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.containerConnexoes{
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.containerAjustes{
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.containerLogout{
+    display: flex;
+    align-items: center;
+}
+
+
+.parteFinal{
+    margin-top: auto;
+    margin-bottom: 15px;
+}
+
+.containerAcessibildades{
+    display: flex;
+}
+
+.iconAcessibilidade{
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.divisoria{
+    width: 275px;
+    height: 2px;
+    background-color: rgb(152, 152, 152);
+}
+
+
+.containerUtilidades{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.utilidades{
+    display: flex;
+    align-items: center;
+}
+
+
+.centro{
+    display: flex;
+    align-items: center;
+    margin-left: 450px;
+    margin-right: 450px;
+    width: calc(100% - 900px);
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+
+.inputProcurarConexxao{
+    margin-top: 46px;
+}
+
+.inputPostUsuario{
+    margin-top: 20px;
+}
+
+.teste{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.abaLateralDireita{
+    position: fixed;
+    top: 0; /* Ajuste conforme necessário para definir a distância do topo */
+    right: 0;
+    width: 450px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
 }

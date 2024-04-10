@@ -2,8 +2,14 @@
     color: white;
     opacity: 0.9;
     font-size: 12px;
+    display: flex;
+    justify-content: center;
 }
 
+
+#termosClicavel{
+    margin-left: 3px;
+}
 
 #termosClicavel:hover{
     cursor: pointer;

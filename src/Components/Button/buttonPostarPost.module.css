@@ -1,19 +1,21 @@
-.buttonLogar{
+.buttonPostar{
     background: linear-gradient(to right, #4BC6FB, #2E95C1, #0A6A93);
     border: none;
     border-radius: 18px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* sombra de caixa */
     color: white;
-    width: 375px;
-    height: 37px;
+    width: 90px;
+    height: 30px;
     cursor: pointer;
 }
 
-.buttonLogar:hover{
+.buttonPostar:hover{
     filter: brightness(1.09);
     transform: scale(1.01);
 }
 
-.buttonLogar:focus{
+.buttonPostar:focus{
     outline: none;
 }
+
+

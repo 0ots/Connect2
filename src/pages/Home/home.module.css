@@ -22,6 +22,11 @@ body{
   animation: fadeInAnimation 1.5s;
 }
 
+input{
+  border: none !important;
+  outline: none !important;
+}
+
 #bodyHome{
   background: linear-gradient(to bottom, #D3D4D9, #25BBAA, #177DA9);
   display: flex;

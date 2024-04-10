@@ -1,0 +1,29 @@
+.divInputPai{
+    width: 600px;
+    height: 37px;
+    border-radius: 18px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+
+
+
+#idProcurarConexxao{
+    width: 5000px;
+    border-radius: 10px;
+    border: none;
+    padding-left: 15px;
+}
+
+.iconSearch{
+    display: flex;
+    top: 0;
+    right: 0;
+    float: 0;
+    margin-right: 15px;
+}
+
+.iconSearch:hover{
+    cursor: pointer;
+}

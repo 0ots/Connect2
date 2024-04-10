@@ -21,6 +21,7 @@ import VoltarTelaLogin from '../../Components/Labels/LabelVoltarLogin'
 
 
 export default function Registrar(){
+
     return (
         <>
         <body id={style.bodyRegisterAcount}>

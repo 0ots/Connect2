@@ -1,0 +1,8 @@
+.iconVolume{
+    font-size: 35px;
+    color: black;
+}
+
+.iconVolume:hover{
+    cursor: pointer;
+}

@@ -15,7 +15,7 @@ export default function InputSenhaLogar(){
             <div className={style.iconWrapper}>
                 <IconLockLogar/>
             </div>
-            <input className={style.inputSenhaLogar} id={style.idInputSenha} type={isPasswordVisible ? "text" : "password"} placeholder='Confirme sua senha'/>
+            <input className={style.inputSenhaLogar} id={style.idInputSenha2} type={isPasswordVisible ? "text" : "password"} placeholder='Confirme sua senha'/>
             <div className={style.iconWrapperEyeOpen} id={style.idIconWrapperEyeOpen} onClick={handleIconClick}>
                 {isPasswordVisible ? <IconEyeClose/> : <IconEyeOpen/>} {/* Renderiza o ícone correspondente com base no estado */}
             </div>

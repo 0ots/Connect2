@@ -4,7 +4,7 @@ import style from './iconHomeMain.module.css'
 export default function Icon() {
     return (
         <div>
-            <FaHome className={style.iconMain} id={style.idIconHome}/>
+            <FaHome className={style.iconHome} id={style.idIconHome}/>
         </div>
     );
 }

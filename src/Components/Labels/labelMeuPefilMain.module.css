@@ -1,8 +1,8 @@
-.labelHomeMain{
+.meuPefil{
     color: black;
     font-size: 26px;
 }
 
-.labelHomeMain:hover{
+.meuPefil:hover{
     cursor: pointer;
 }

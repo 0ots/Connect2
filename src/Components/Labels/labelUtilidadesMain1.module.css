@@ -1,0 +1,9 @@
+.spanItem{
+    color: black;
+    opacity: 0.5;
+    font-size: 12px;
+}
+
+.spanItem:hover{
+    cursor: pointer;
+}

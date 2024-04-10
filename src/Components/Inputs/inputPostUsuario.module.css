@@ -1,0 +1,43 @@
+.divInputPostPai{
+    background-color: white;
+    width: 600px;
+    height: 155px;
+    border-radius: 15px;
+}
+
+.containerFotoAreaPost{
+    display: flex;
+}
+
+.fotoUsuario{
+    padding-left: 15px;
+    padding-top: 15px;
+}
+
+#areaTextoPost{
+    border: none;
+    resize: none;
+    width: 492px;
+    margin-top: 15px;
+    margin-left: 10px;
+    outline: none;
+}
+
+.divisoria{
+    width: 565px;
+    height: 2px;
+    margin-top: 10px;
+    margin-left: 15px;
+    background-color: rgb(152, 152, 152);
+}
+
+.containerOpcoesPost{
+    margin-top: 15px;
+}
+
+.botaoPostar{
+    display: flex;
+    top: 0;
+    right: 0;
+    margin-left: 492px;
+}

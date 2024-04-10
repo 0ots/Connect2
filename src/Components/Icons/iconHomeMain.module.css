@@ -1,8 +1,8 @@
-.iconMain {
+.iconHome {
     font-size: 47px;
     color: #2E95C1;
 }
 
-.idIconHome {
-    
+.iconHome:hover {
+    cursor: pointer;
 }

@@ -1,0 +1,8 @@
+.iconSun{
+    font-size: 35px;
+    color: black;
+}
+
+.iconSun:hover{
+    cursor: pointer;
+}
