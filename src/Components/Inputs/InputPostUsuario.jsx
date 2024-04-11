@@ -1,6 +1,8 @@
 import style from './inputPostUsuario.module.css'
 import FotoUsuarioLogado from '../../Components/Images/FotoUsuarioLogado'
 import ButaoPostar from '../../Components/Button/ButtonPostarPost'
+import IconImage from '../../Components/Icons/IconImagemMain'
+import IconVideo from '../../Components/Icons/iconVideo'
 
 export default function label(){
     return(
@@ -19,6 +21,12 @@ export default function label(){
             </div>
 
             <div className={style.containerOpcoesPost}>
+                <div className={style.iconImagem}>
+                    <IconImage/>
+                </div>
+                <div className={style.iconVideo}>
+                    <IconVideo/>
+                </div>
                 <div className={style.botaoPostar}>
                     <ButaoPostar/>
                 </div>

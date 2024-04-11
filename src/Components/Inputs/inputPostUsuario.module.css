@@ -32,6 +32,7 @@
 }
 
 .containerOpcoesPost{
+    display: flex;
     margin-top: 15px;
 }
 
@@ -39,5 +40,13 @@
     display: flex;
     top: 0;
     right: 0;
-    margin-left: 492px;
+    margin-left: 397px;
+}
+
+.iconImagem{
+    padding-left: 15px ;
+}
+
+.iconVideo{
+    padding-left: 10px;
 }

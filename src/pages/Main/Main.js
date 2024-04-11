@@ -116,7 +116,6 @@ export default function Main(){
                                 <InputPostUsuario/>
                             </div>
                         </div>
-  
                     </div>
 
 
