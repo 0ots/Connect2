@@ -36,6 +36,10 @@
     padding-right: 20px;
 }
 
+#opcao{
+    margin-top: 8px;
+}
+
 .containerMainOptions{
     display: flex;
     flex-direction: column;
@@ -133,12 +137,7 @@
     margin-top: 15px;
 }
 
-.teste{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
+
 
 
 .abaLateralDireita{
@@ -152,4 +151,17 @@
     align-items: center;
     margin: 0;
     padding: 0;
+}
+
+.containerAniversario{
+    margin-top: 40px;
+}
+
+.titulo{
+    display: flex;
+    align-items: center;
+}
+
+.tituloAniversario{
+    margin-left: 12px;
 }

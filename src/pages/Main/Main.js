@@ -4,9 +4,9 @@ import LogoEmpresa from '../../Components/Images/LogoEmpresaMain'
 
 import ImagemHome from '../../Components/Images/ImagemHome'
 import ImagemMeuPerfil from '../../Components/Images/ImagemMeuPerfil'
-import IconConnections from '../../Components/Icons/IconConnectionsMain'
-import IconCog from '../../Components/Icons/IconCogMain'
-import IconLogout from '../../Components/Icons/IconLogoutMain'
+import ImagemConexxoes from '../../Components/Images/ImagemConexxao'
+import ImagemAjustes from '../../Components/Images/ImagemAjustes'
+import ImagemLogout from '../../Components/Images/ImagemLogout'
 
 import LabelHome from '../../Components/Labels/LabelHomeMain'
 import LabelMyPerfil from '../../Components/Labels/LabelMeuPefilMain'
@@ -14,7 +14,8 @@ import LabelConnexoes from '../../Components/Labels/LabelConnexoes'
 import LabelAjustes from '../../Components/Labels/LabelAjustes'
 import LabelLogout from '../../Components/Labels/LabelLogout'
 
-import IconSun from '../../Components/Icons/IconSun'
+import ImagemAlterarTema from '../../Components/Images/ImagemAlterarTema'
+import ImagemLeituraVoz from '../../Components/Images/ImagemLeituraVoz'
 import IconVolume from '../../Components/Icons/IconVolume'
 
 import Utilidades1 from '../../Components/Labels/LabelUtilidadesMain1'
@@ -25,7 +26,8 @@ import InputProcurarConexxao from '../../Components/Inputs/InputProcurarConexxao
 import InputPostUsuario from '../../Components/Inputs/InputPostUsuario'
 import InputPrimeiroPost from '../../Components/Inputs/InputPrimeiroPost'
 
-
+import ImagemAniversario from '../../Components/Images/ImagemAniversario'
+import LabelTituloAniversariantes from '../../Components/Labels/LabelTituloAniversariantes'
 
 export default function Main(){
     return(
@@ -37,8 +39,8 @@ export default function Main(){
                         <div className={style.logoEmpresa}>
                             <LogoEmpresa/>
                         </div>
-                        <div className={style.containerMainOptions}>
-                            <div className={style.containerPaginaInicial}>
+                        <div className={style.containerMainOptions} >
+                            <div className={style.containerPaginaInicial} id={style.opcao}>
                                 <div className={style.mainIcon}>
                                     <ImagemHome/>
                                 </div>
@@ -46,7 +48,7 @@ export default function Main(){
                                     <LabelHome/>
                                 </div>
                             </div>
-                            <div className={style.containerMeuPerfil}>
+                            <div className={style.containerMeuPerfil} id={style.opcao}>
                                 <div className={style.mainIcon}>
                                     <ImagemMeuPerfil/>    
                                 </div>   
@@ -54,38 +56,38 @@ export default function Main(){
                                     <LabelMyPerfil/>
                                 </div>
                             </div>
-                            <div className={style.containerConnexoes}>
+                            <div className={style.containerConnexoes} id={style.opcao}>
                                 <div className={style.mainIcon}>
-                                    <IconConnections/>
+                                    <ImagemConexxoes/>
                                 </div>
                                 <div>
                                     <LabelConnexoes/>
                                 </div>
                             </div>
-                            <div className={style.containerAjustes}>
+                            <div className={style.containerAjustes} id={style.opcao}>
                                 <div className={style.mainIcon}>
-                                    <IconCog/>
+                                    <ImagemAjustes/>
                                 </div>
                                 <div>
                                     <LabelAjustes/>
                                 </div>
                             </div>
-                            <div className={style.containerLogout}>
+                            <div className={style.containerLogout} id={style.opcao}>
                                 <div className={style.mainIcon}>
-                                    <IconLogout/>
+                                    <ImagemLogout/>
                                 </div>
                                 <div>
-                                <LabelLogout/>
+                                    <LabelLogout/>
                                 </div>
                             </div>
                         </div>
                         <div className={style.parteFinal}>
                             <div className={style.containerAcessibildades}>
                                 <div className={style.iconAcessibilidade}>
-                                    <IconSun/>
+                                    <ImagemAlterarTema/>
                                 </div>
                                 <div className={style.iconAcessibilidade}>
-                                    <IconSun/>
+                                    <ImagemLeituraVoz/>
                                 </div>
                                 <div className={style.iconAcessibilidade}>
                                     <IconVolume/>
@@ -127,10 +129,18 @@ export default function Main(){
 
 
 
-
-
                     <div className={style.abaLateralDireita}>
-                        <h1>Teste</h1>
+                        <div className={style.containerAniversario}>
+                            <div className={style.titulo}>
+                                <div className={style.imagemPresenteAniversario}>
+                                    <ImagemAniversario/>
+                                </div>
+                                <div className={style.tituloAniversario}>
+                                    <LabelTituloAniversariantes/>
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
 
             </div>
