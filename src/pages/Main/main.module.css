@@ -129,6 +129,10 @@
     margin-top: 20px;
 }
 
+.inputPrimeiroPost{
+    margin-top: 15px;
+}
+
 .teste{
     display: flex;
     align-items: center;

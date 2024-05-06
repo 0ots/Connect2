@@ -1,9 +1,8 @@
-import { GoVideo } from "react-icons/go";
-
 import style from './iconVideo.module.css'
+import { CiVideoOn } from "react-icons/ci";
 
 export default function icon(){
     return(
-        <GoVideo className={style.iconVideo} />
+        <CiVideoOn className={style.iconVideo} />
     )
 }

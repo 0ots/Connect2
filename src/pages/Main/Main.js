@@ -2,8 +2,8 @@ import style from './main.module.css'
 
 import LogoEmpresa from '../../Components/Images/LogoEmpresaMain'
 
-import IconHome from '../../Components/Icons/IconHomeMain'
-import IconMyProfile from '../../Components/Icons/IconUserMain'
+import ImagemHome from '../../Components/Images/ImagemHome'
+import ImagemMeuPerfil from '../../Components/Images/ImagemMeuPerfil'
 import IconConnections from '../../Components/Icons/IconConnectionsMain'
 import IconCog from '../../Components/Icons/IconCogMain'
 import IconLogout from '../../Components/Icons/IconLogoutMain'
@@ -23,6 +23,7 @@ import Utilidades2 from '../../Components/Labels/LabelUtilidadesMain2'
 
 import InputProcurarConexxao from '../../Components/Inputs/InputProcurarConexxao'
 import InputPostUsuario from '../../Components/Inputs/InputPostUsuario'
+import InputPrimeiroPost from '../../Components/Inputs/InputPrimeiroPost'
 
 
 
@@ -39,7 +40,7 @@ export default function Main(){
                         <div className={style.containerMainOptions}>
                             <div className={style.containerPaginaInicial}>
                                 <div className={style.mainIcon}>
-                                    <IconHome/>
+                                    <ImagemHome/>
                                 </div>
                                 <div className={style.fontHome}>
                                     <LabelHome/>
@@ -47,7 +48,7 @@ export default function Main(){
                             </div>
                             <div className={style.containerMeuPerfil}>
                                 <div className={style.mainIcon}>
-                                    <IconMyProfile/>    
+                                    <ImagemMeuPerfil/>    
                                 </div>   
                                 <div>
                                     <LabelMyPerfil/>
@@ -114,6 +115,9 @@ export default function Main(){
                             </div>
                             <div className={style.inputPostUsuario}>
                                 <InputPostUsuario/>
+                            </div>
+                            <div className={style.inputPrimeiroPost}>
+                                <InputPrimeiroPost/>
                             </div>
                         </div>
                     </div>

@@ -31,7 +31,6 @@ export default function label(){
                     <ButaoPostar/>
                 </div>
             </div>
-
         </div>
     )
 }
