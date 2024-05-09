@@ -28,6 +28,21 @@ import InputPrimeiroPost from '../../Components/Inputs/InputPrimeiroPost'
 
 import ImagemAniversario from '../../Components/Images/ImagemAniversario'
 import LabelTituloAniversariantes from '../../Components/Labels/LabelTituloAniversariantes'
+import ImagemPrimeiroAniversariante from '../../Components/Images/ImagemPrimeiroAniversariante'
+import ImagemSegundoAniversariante from '../../Components/Images/ImagemSegundoAniversariante'
+
+import ImagemSugestao from '../../Components/Images/ImagemSugestaoConnexao'
+import ImagemPrimeiraSugestão from '../../Components/Images/ImagemPrimeiraSugestao'
+import ImagemSegundaSugestão from '../../Components/Images/ImagemSegundaSugestao'
+import ImagemTerceiraSugestao from '../../Components/Images/ImagemTerceiraSugestao'
+import ImagemQuartaSugestao from '../../Components/Images/ImagemQuartaSugestao'
+
+import ImagemConnectores from '../../Components/Images/ImagemConnectores'
+import InputProcurarConnecotores from '../../Components/Inputs/InputProcurarConnectores'
+import PrimeiroConnector from '../../Components/Labels/LabelPrimeiroConnector'
+import SegundoConnector from '../../Components/Labels/LabelSegundoConnector'
+import TerceiroConnector from '../../Components/Labels/LabelTerceiroConnector'
+import QuartoConnector from '../../Components/Labels/LabelQuartoConnector'
 
 export default function Main(){
     return(
@@ -109,7 +124,6 @@ export default function Main(){
 
 
 
-
                     <div className={style.centro}>
                         <div className={style.teste}>
                             <div className={style.inputProcurarConexxao}>
@@ -128,7 +142,6 @@ export default function Main(){
 
 
 
-
                     <div className={style.abaLateralDireita}>
                         <div className={style.containerAniversario}>
                             <div className={style.titulo}>
@@ -138,6 +151,64 @@ export default function Main(){
                                 <div className={style.tituloAniversario}>
                                     <LabelTituloAniversariantes/>
                                 </div>
+                            </div>
+                            <div className={style.divisoriadireita}>
+
+                            </div>
+                            <div className={style.aniversariantes}>
+                                <div className={style.primeiroAniversariante}>
+                                    <div className={style.imagemPrimeiroAniversariante}>
+                                        <ImagemSegundoAniversariante/>
+                                    </div>
+                                </div>
+                                <div className={style.segundoAniversariante}>
+                                    <div>
+                                        <ImagemPrimeiroAniversariante/>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className={style.containerSugestoes}>
+                            <div className={style.imagemSugestao}>
+                                <ImagemSugestao/>
+                            </div>
+                            <div className={style.divisoriadireita}>
+
+                            </div>
+                            <div className={style.primeiraSugestao}>
+                                <ImagemPrimeiraSugestão/>
+                            </div>
+                            <div className={style.segundaSugestao}>
+                                <ImagemSegundaSugestão/>
+                            </div>
+                            <div className={style.terceiraSugestao}>
+                                <ImagemTerceiraSugestao/>
+                            </div>
+                            <div className={style.quartaSugestao}>
+                                <ImagemQuartaSugestao/>
+                            </div>
+                        </div>
+                        <div className={style.containerConnectores}>
+                            <div>
+                                <ImagemConnectores/>
+                            </div>
+                            <div className={style.divisoriadireita}>
+
+                            </div>
+                            <div className={style.inputProcurar}>
+                                <InputProcurarConnecotores/>
+                            </div>
+                            <div className={style.primeiroConnector}>
+                                <PrimeiroConnector/>
+                            </div>
+                            <div className={style.segundoConnector}>
+                                <SegundoConnector/>
+                            </div>
+                            <div className={style.terceiroConnector}>
+                                <TerceiroConnector/>
+                            </div>
+                            <div className={style.quartoConnector}>
+                                <QuartoConnector/>
                             </div>
                         </div>
 

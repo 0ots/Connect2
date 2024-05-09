@@ -165,3 +165,26 @@
 .tituloAniversario{
     margin-left: 12px;
 }
+
+.primeiroAniversariante{
+    margin-top: 20px;
+}
+
+.segundoAniversariante{
+    margin-top: 10px;
+}
+
+.containerSugestoes{
+    margin-top: 25px;
+}
+
+.containerConnectores{
+    margin-top: 17px;
+    margin-left: 2px;
+}
+
+.divisoriadireita{
+    width: 310px;
+    height: 2px;
+    background-color: rgb(152, 152, 152);
+}

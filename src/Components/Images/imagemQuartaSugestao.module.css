@@ -1,0 +1,17 @@
+.container{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+
+.nomeSugestao{
+    margin-left: 10px;
+}
+
+.iconeAdicionarSugestao{
+    position: fixed;
+    margin-left: 257px;
+    cursor: pointer;
+    cursor: pointer;
+}
