@@ -12,7 +12,7 @@
     position: fixed;
     top: 0; /* Ajuste conforme necessário para definir a distância do topo */
     left: 0;
-    width: 450px;
+    width: 650px;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -116,9 +116,9 @@
 .centro{
     display: flex;
     align-items: center;
-    margin-left: 450px;
-    margin-right: 450px;
-    width: calc(100% - 900px);
+    margin-left: 650px;
+    margin-right: 650px;
+    width: calc(100% - 1300px);
     justify-content: center;
     flex-direction: column;
 }
@@ -144,7 +144,7 @@
     position: fixed;
     top: 0; /* Ajuste conforme necessário para definir a distância do topo */
     right: 0;
-    width: 450px;
+    width: 650px;
     height: 100vh;
     display: flex;
     flex-direction: column;
