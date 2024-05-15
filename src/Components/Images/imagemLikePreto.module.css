@@ -1,0 +1,17 @@
+.like{
+    margin-left: 10px;
+}
+
+.like:hover{
+    cursor: pointer;
+}
+
+.alinhar{
+    display: flex;
+    align-items: center;
+}
+
+.texto{
+    margin-top: -5px;
+    margin-left: 2px;
+}

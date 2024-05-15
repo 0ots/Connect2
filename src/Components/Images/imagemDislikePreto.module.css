@@ -1,0 +1,18 @@
+.dislike{
+    margin-top: -7px;
+    margin-left: 10px;
+}
+
+.dislike:hover{
+    cursor: pointer;
+}
+
+.alinhar{
+    display: flex;
+    align-items: center;
+}
+
+.texto{
+    margin-top: -5px;
+    margin-left: 2px;
+}

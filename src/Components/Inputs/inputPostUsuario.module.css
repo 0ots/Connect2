@@ -28,19 +28,20 @@
     height: 2px;
     margin-top: 10px;
     margin-left: 15px;
-    background-color: rgb(152, 152, 152);
+    background-color: rgb(215, 214, 214);
 }
 
 .containerOpcoesPost{
     display: flex;
-    margin-top: 15px;
+    align-items: center;
+    margin-top: 10px;
 }
 
 .botaoPostar{
     display: flex;
     top: 0;
     right: 0;
-    margin-left: 397px;
+    margin-left: 366px;
 }
 
 .iconImagem{
@@ -48,5 +49,9 @@
 }
 
 .iconVideo{
+    padding-left: 10px;
+}
+
+.iconVotacao{
     padding-left: 10px;
 }

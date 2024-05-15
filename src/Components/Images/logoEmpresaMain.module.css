@@ -2,3 +2,7 @@
     width: 130px;
     height: 160px;
 }
+
+#idLogoEmpresaMain:hover{
+    cursor: pointer;
+}

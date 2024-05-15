@@ -4,7 +4,9 @@ import ResetPassword from './pages/ResetPassword/ResetPassword'
 import Main from './pages/Main/Main'
 import LinkSended from './pages/LinkSended/LinkSended'
 import AccountCreated from './pages/AccountCreated/AccountCreated'
-import Development from './pages/Development/Development'
+import MyProfile from './pages/MyProfile/MyProfile'
+import Connections from './pages/Connections/Connections'
+import Setts from './pages/Setts/Setts'
 
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
@@ -18,7 +20,9 @@ function App() {
               <Route path='/main' element={<Main/>}/>
               <Route path='/linksended' element={<LinkSended/>}/>
               <Route path='/accountcreated' element={<AccountCreated/>}/>
-              <Route path='/development' element={<Development/>}/>
+              <Route path='/myprofile' element={<MyProfile/>}/>
+              <Route path='/connections' element={<Connections/>}/>
+              <Route path='/setts' element={<Setts/>}/>
           </Routes>
       </BrowserRouter>
   );

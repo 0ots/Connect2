@@ -1,0 +1,15 @@
+.comentario:hover{
+    cursor: pointer;
+}
+
+.alinhar{
+    display: flex;
+    align-items: center;
+    margin-top: -1px;
+    margin-left: 10px;
+}
+
+.texto{
+    margin-top: -5px;
+    margin-left: 2px;
+}

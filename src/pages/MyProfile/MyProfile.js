@@ -1,4 +1,4 @@
-import style from './main.module.css'
+import style from './myProfile.module.css'
 
 import LogoEmpresa from '../../Components/Images/LogoEmpresaMain'
 
@@ -124,25 +124,7 @@ export default function Main(){
 
 
 
-                    <div className={style.centro}>
-                        <div className={style.teste}>
-                            <div className={style.inputProcurarConexxao}>
-                                <InputProcurarConexxao/>
-                            </div>
-                            <div className={style.inputPostUsuario}>
-                                <InputPostUsuario/>
-                            </div>
-                            <div className={style.inputPrimeiroPost}>
-                                <InputPrimeiroPost/>
-                            </div>
-                            <div className={style.inputPrimeiroPost}>
-                                <InputPrimeiroPost/>
-                            </div>
-                            <div className={style.inputPrimeiroPost}>
-                                <InputPrimeiroPost/>
-                            </div>
-                        </div>
-                    </div>
+
 
 
 

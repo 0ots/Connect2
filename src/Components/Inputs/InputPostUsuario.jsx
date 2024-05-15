@@ -1,8 +1,9 @@
 import style from './inputPostUsuario.module.css'
 import FotoUsuarioLogado from '../../Components/Images/FotoUsuarioLogado'
 import ButaoPostar from '../../Components/Button/ButtonPostarPost'
-import IconImage from '../../Components/Icons/IconImagemMain'
-import IconVideo from '../../Components/Icons/iconVideo'
+import IconImage from '../../Components/Images/ImagemFoto'
+import IconVideo from '../../Components/Images/ImagemVideo'
+import IconVotacao from '../../Components/Images/ImagemVotacao'
 
 export default function label(){
     return(
@@ -26,6 +27,9 @@ export default function label(){
                 </div>
                 <div className={style.iconVideo}>
                     <IconVideo/>
+                </div>
+                <div className={style.iconVotacao}>
+                    <IconVotacao/>
                 </div>
                 <div className={style.botaoPostar}>
                     <ButaoPostar/>

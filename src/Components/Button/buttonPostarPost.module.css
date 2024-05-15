@@ -2,7 +2,7 @@
     background: linear-gradient(to right, #4BC6FB, #2E95C1, #0A6A93);
     border: none;
     border-radius: 18px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* sombra de caixa */
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5); /* sombra de caixa */
     color: white;
     width: 90px;
     height: 30px;
