@@ -24,6 +24,7 @@ import Utilidades2 from '../../Components/Labels/LabelUtilidadesMain2'
 
 import InputProcurarConexxao from '../../Components/Inputs/InputProcurarConexxao'
 import InputPostUsuario from '../../Components/Inputs/InputPostUsuario'
+import LabelRecentes from '../../Components/Labels/LabelRecentes'
 import InputPrimeiroPost from '../../Components/Inputs/InputPrimeiroPost'
 
 import ImagemAniversario from '../../Components/Images/ImagemAniversario'
@@ -131,6 +132,9 @@ export default function Main(){
                             </div>
                             <div className={style.inputPostUsuario}>
                                 <InputPostUsuario/>
+                            </div>
+                            <div className={style.labelRecentes}>
+                                <LabelRecentes/>
                             </div>
                             <div className={style.inputPrimeiroPost}>
                                 <InputPrimeiroPost/>
