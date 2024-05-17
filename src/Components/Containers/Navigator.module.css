@@ -1,0 +1,34 @@
+#Main{
+    background-color: #D3D4D9;
+}
+
+.tituloAniversario{
+    margin-left: 12px;
+}
+
+.primeiroAniversariante{
+    margin-top: 20px;
+}
+
+.segundoAniversariante{
+    margin-top: 10px;
+}
+
+.containerAniversario{
+    margin-top: 40px;
+}
+
+.titulo{
+    display: flex;
+    align-items: center;
+}
+
+.tituloAniversario{
+    margin-left: 12px;
+}
+
+.divisoriadireita{
+    width: 310px;
+    height: 2px;
+    background-color: rgb(152, 152, 152);
+}

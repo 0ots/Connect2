@@ -157,30 +157,6 @@
     padding: 0;
 }
 
-.containerAniversario{
-    margin-top: 40px;
-}
-
-.titulo{
-    display: flex;
-    align-items: center;
-}
-
-.tituloAniversario{
-    margin-left: 12px;
-}
-
-.primeiroAniversariante{
-    margin-top: 20px;
-}
-
-.segundoAniversariante{
-    margin-top: 10px;
-}
-
-.containerSugestoes{
-    margin-top: 6px;
-}
 
 .containerConnectores{
     margin-top: auto;
