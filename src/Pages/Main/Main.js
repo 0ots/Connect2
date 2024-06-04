@@ -25,8 +25,7 @@ export default function Main() {
         <>
             <body id={style.Main}>
                 <div className={style.containerCentral}>
-                    <Navigator/>
-
+                    <Navigator />
                     <div className={style.centro}>
                         <div className={style.teste}>
                             <div className={style.inputProcurarConexxao}>
@@ -48,8 +47,8 @@ export default function Main() {
 
                     <div className={style.abaLateralDireita}>
 
-                        <Birthday/>
-                        <FriendSuggest/>
+                        <Birthday />
+                        <FriendSuggest />
 
 
                         <div className={style.containerConnectores}>
