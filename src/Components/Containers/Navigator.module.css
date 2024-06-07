@@ -1,5 +1,152 @@
-#Main{
-    background-color: #D3D4D9;
+.abaLateralEsquerda{
+    position: fixed;
+    top: 0; /* Ajuste conforme necessário para definir a distância do topo */
+    left: 0;
+    width: 650px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+
+.logoEmpresa{
+    margin-top: 40px;
+}
+
+.containerPaginaInicial{
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.containerCentral{
+    display: flex;
+}
+
+
+.containerMainOptions{
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+}
+
+
+#opcao{
+    margin-top: 8px;
+}
+
+.containerMainIcons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mainIcon{
+    padding-right: 20px;
+}
+
+.containerMeuPerfil{
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+
+.containerAjustes{
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.containerLogout{
+    display: flex;
+    align-items: center;
+}
+
+
+.parteFinal{
+    margin-top: auto;
+    margin-bottom: 15px;
+}
+
+.containerAcessibildades{
+    display: flex;
+}
+
+.iconAcessibilidade{
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.divisoria{
+    width: 275px;
+    height: 2px;
+    background-color: rgb(152, 152, 152);
+}
+
+
+.containerUtilidades{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.utilidades{
+    display: flex;
+    align-items: center;
+}
+
+
+.centro{
+    display: flex;
+    align-items: center;
+    margin-left: 650px;
+    margin-right: 650px;
+    width: calc(100% - 1300px);
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+
+.inputProcurarConexxao{
+    margin-top: 46px;
+}
+
+.inputPostUsuario{
+    margin-top: 20px;
+}
+
+.inputPrimeiroPost{
+    margin-top: 15px;
+}
+
+
+
+
+.abaLateralDireita{
+    position: fixed;
+    top: 0; /* Ajuste conforme necessário para definir a distância do topo */
+    right: 0;
+    width: 650px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.containerAniversario{
+    margin-top: 40px;
+}
+
+.titulo{
+    display: flex;
+    align-items: center;
 }
 
 .tituloAniversario{
@@ -14,17 +161,13 @@
     margin-top: 10px;
 }
 
-.containerAniversario{
-    margin-top: 40px;
+.containerSugestoes{
+    margin-top: 6px;
 }
 
-.titulo{
-    display: flex;
-    align-items: center;
-}
-
-.tituloAniversario{
-    margin-left: 12px;
+.containerConnectores{
+    margin-top: auto;
+    margin-bottom: 15px;
 }
 
 .divisoriadireita{

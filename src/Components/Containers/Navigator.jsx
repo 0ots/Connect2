@@ -1,4 +1,4 @@
-import style from './Birthday.module.css'
+import style from './Navigator.module.css'
 
 import LogoEmpresa from '../Images/LogoEmpresaMain'
 
@@ -45,7 +45,7 @@ export default function Navigator() {
                         <LabelMyPerfil />
                     </div>
                 </div>
-                <div className={style.containerConnexoes} id={style.opcao}>
+                <div>
                     <div className={style.mainIcon}>
                         <ImagemConexxoes />
                     </div>
