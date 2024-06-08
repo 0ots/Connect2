@@ -7,7 +7,7 @@ import ImagemMeuPerfil from '../Images/ImagemMeuPerfil'
 import ImagemConexxoes from '../Images/ImagemConexxao'
 import ImagemAjustes from '../Images/ImagemAjustes'
 import ImagemLogout from '../Images/ImagemLogout'
-
+import Divisoria from './Divisoria'
 import LabelHome from '../Labels/LabelHomeMain'
 import LabelMyPerfil from '../Labels/LabelMeuPefilMain'
 import LabelConnexoes from '../Labels/LabelConnexoes'
@@ -24,12 +24,12 @@ import Utilidades2 from '../Labels/LabelUtilidadesMain2'
 
 export default function Navigator() {
     return (
-        <div className={style.abaLateralEsquerda}>
-            <div className={style.logoEmpresa}>
+        <div className={style.leftBar}>
+            <div className={style.topIcon}>
                 <LogoEmpresa />
             </div>
-            <div className={style.containerMainOptions} >
-                <div className={style.containerPaginaInicial} id={style.opcao}>
+            <div className={style.topContainer} >
+                <div className={style.barContainer} id={style.opcao}>
                     <div className={style.mainIcon}>
                         <ImagemHome />
                     </div>
@@ -37,7 +37,7 @@ export default function Navigator() {
                         <LabelHome />
                     </div>
                 </div>
-                <div className={style.containerMeuPerfil} id={style.opcao}>
+                <div className={style.barContainer} id={style.opcao}>
                     <div className={style.mainIcon}>
                         <ImagemMeuPerfil />
                     </div>
@@ -45,7 +45,7 @@ export default function Navigator() {
                         <LabelMyPerfil />
                     </div>
                 </div>
-                <div>
+                <div className={style.barContainer} id={style.opcao}> 
                     <div className={style.mainIcon}>
                         <ImagemConexxoes />
                     </div>
@@ -53,7 +53,7 @@ export default function Navigator() {
                         <LabelConnexoes />
                     </div>
                 </div>
-                <div className={style.containerAjustes} id={style.opcao}>
+                <div className={style.barContainer} id={style.opcao}>
                     <div className={style.mainIcon}>
                         <ImagemAjustes />
                     </div>
@@ -61,7 +61,7 @@ export default function Navigator() {
                         <LabelAjustes />
                     </div>
                 </div>
-                <div className={style.containerLogout} id={style.opcao}>
+                <div className={style.barContainer} id={style.opcao}>
                     <div className={style.mainIcon}>
                         <ImagemLogout />
                     </div>
@@ -70,21 +70,13 @@ export default function Navigator() {
                     </div>
                 </div>
             </div>
-            <div className={style.parteFinal}>
-                <div className={style.containerAcessibildades}>
-                    <div className={style.iconAcessibilidade}>
+            <div className={style.bottomContainer}>
+                <div className={style.bottomContainerItem}>
                         <ImagemAlterarTema />
-                    </div>
-                    <div className={style.iconAcessibilidade}>
                         <ImagemLeituraVoz />
-                    </div>
-                    <div className={style.iconAcessibilidade}>
                         <IconVolume />
-                    </div>
                 </div>
-                <div className={style.divisoria}>
-
-                </div>
+                <Divisoria/>
                 <div className={style.containerUtilidades}>
                     <div className={style.utilidades1}>
                         <Utilidades1 />

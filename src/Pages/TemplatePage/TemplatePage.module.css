@@ -1,0 +1,25 @@
+.side {
+    top: 0;
+    right: 0;
+    width: 25%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.middleContainer {
+    display: flex;
+    align-items: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 30%;
+    justify-content: center;
+}
+
+
+.parentContainer{
+    display: flex;
+}
