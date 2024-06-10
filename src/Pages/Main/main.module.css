@@ -122,11 +122,6 @@
     justify-content: center;
     flex-direction: column;
 }
-<<<<<<< HEAD:src/pages/Connections/connections.module.css
-=======
-
-
->>>>>>> f56dc0329faf4a5cce2107d07e84609f7067d2f1:src/Pages/Main/main.module.css
 .inputProcurarConexxao{
     margin-top: 46px;
 }
@@ -134,9 +129,8 @@
     margin-top: 20px;
 }
 
-<<<<<<< HEAD:src/pages/Connections/connections.module.css
 
-=======
+
 .labelRecentes{
     margin-top: 15px;
     margin-left: 250px;
@@ -145,7 +139,6 @@
 .inputPrimeiroPost{
     margin-top: 15px;
 }
->>>>>>> f56dc0329faf4a5cce2107d07e84609f7067d2f1:src/Pages/Main/main.module.css
 
 
 
