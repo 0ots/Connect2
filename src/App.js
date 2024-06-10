@@ -5,7 +5,7 @@ import Main from '../src//Pages/Main/Main'
 import LinkSended from '../src/Pages/LinkSended/LinkSended'
 import AccountCreated from '../src/Pages/AccountCreated/AccountCreated'
 import MyProfile from '../src/Pages/MyProfile/MyProfile'
-import Connections from '../src/Pages/Connections/Connections'
+import Connections from './Pages/Connections/ConnectionsPage'
 import Setts from '../src/Pages/Setts/Setts'
 //teste
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
