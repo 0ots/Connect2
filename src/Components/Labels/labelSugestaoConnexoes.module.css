@@ -1,0 +1,33 @@
+.sugestao{
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    margin-left: 25px;
+}
+
+.containerInformacoes{
+    margin-left: 12px;
+    font-size: 12px;
+}
+
+.nome{
+    margin-top: -6px;
+}
+
+#idNome{
+    font-size: 15px;
+}
+
+.opacidadeAtiva{
+    font-size: 12px;
+    opacity: 0.6;
+}
+
+.buttonAdd{
+    position: fixed;
+    margin-left: 483px;
+}
+
+.iconeAdicionarSugestao:hover{
+    cursor: pointer;
+}

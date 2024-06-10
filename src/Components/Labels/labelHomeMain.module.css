@@ -1,8 +1,8 @@
-.labelHomeMain{
+#labelHomeMain{
     color: black;
     font-size: 26px;
 }
 
-.labelHomeMain:hover{
+#labelHomeMain:hover{
     cursor: pointer;
 }

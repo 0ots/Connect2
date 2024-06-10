@@ -1,0 +1,29 @@
+.container{
+    display: inline;
+}
+
+.labelNome{
+    opacity: 0.6;
+}
+
+.containerInput{
+    background-color: #E9E3E3;
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+    width: 535px;
+    height: 120px;
+    border-radius: 15px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);;
+}
+
+.sobre{
+    background-color: #E9E3E3;
+    margin-left: 10px;
+    font-size: 18px;
+    width: 510px;
+    height: 100px;
+    border: none;
+    resize: none;
+    outline: none;
+}

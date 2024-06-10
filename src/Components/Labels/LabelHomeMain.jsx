@@ -6,7 +6,7 @@ export default function label(){
         document.location.assign('/main')
     }
     return(
-        <span className={style.labelHomeMain} onClick={Home}>Página Inicial</span>
+        <span id={style.labelHomeMain} onClick={Home}>Home</span>
     )
 }
 

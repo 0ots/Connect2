@@ -1,8 +1,8 @@
-.meuPefil{
+#meuPerfil{
     color: black;
     font-size: 26px;
 }
 
-.meuPefil:hover{
+#meuPerfil:hover{
     cursor: pointer;
 }

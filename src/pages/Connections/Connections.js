@@ -21,10 +21,8 @@ import IconVolume from '../../Components/Icons/IconVolume'
 import Utilidades1 from '../../Components/Labels/LabelUtilidadesMain1'
 import Utilidades2 from '../../Components/Labels/LabelUtilidadesMain2'
 
-
 import InputProcurarConexxao from '../../Components/Inputs/InputProcurarConexxao'
-import InputPostUsuario from '../../Components/Inputs/InputPostUsuario'
-import InputPrimeiroPost from '../../Components/Inputs/InputPrimeiroPost'
+import LabelSugestoesConnexoes from '../../Components/Labels/LabelSugestoesConnexoes'
 
 import ImagemAniversario from '../../Components/Images/ImagemAniversario'
 import LabelTituloAniversariantes from '../../Components/Labels/LabelTituloAniversariantes'
@@ -124,7 +122,14 @@ export default function Main(){
 
 
 
-
+                    <div className={style.centro}>
+                        <div className={style.inputProcurarConexxao}>
+                            <InputProcurarConexxao/>
+                        </div>
+                        <div className={style.sugestoes}>
+                            <LabelSugestoesConnexoes/>
+                        </div>  
+                    </div>
 
 
 

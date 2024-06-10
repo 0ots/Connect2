@@ -1,8 +1,8 @@
-.connexoes{
+#connexoes{
     color: black;
     font-size: 26px;
 }
 
-.connexoes:hover{
+#connexoes:hover{
     cursor: pointer;
 }

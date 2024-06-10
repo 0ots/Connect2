@@ -122,20 +122,14 @@
     justify-content: center;
     flex-direction: column;
 }
-
-
-
 .inputProcurarConexxao{
     margin-top: 46px;
 }
-
-.inputPostUsuario{
+.sugestoes{
     margin-top: 20px;
 }
 
-.inputPrimeiroPost{
-    margin-top: 15px;
-}
+
 
 
 

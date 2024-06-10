@@ -151,7 +151,6 @@ export default function Main(){
 
 
 
-
                     <div className={style.abaLateralDireita}>
                         <div className={style.containerAniversario}>
                             <div className={style.titulo}>
