@@ -27,7 +27,7 @@ export default function input(props) {
                         </div>
                     </div>
                     <div className={style.cidadeUsuario}>
-                        Em {props.post.place.city} - {props.post.place.city}, {props.post.place.country}
+                        {props.post.place.city}, {props.post.place.country}
                     </div>
                 </div>
             </div>
