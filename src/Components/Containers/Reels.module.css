@@ -2,6 +2,10 @@
     margin-top: 35px;
 }
 
+.divPost{
+    
+}
+
 .leftBar{
     position: fixed;
     top: 0; /* Ajuste conforme necessário para definir a distância do topo */
@@ -24,8 +28,6 @@
     align-items: center;
     margin-bottom: 12px;
 }
-
-
 
 .topContainer{
     display: flex;

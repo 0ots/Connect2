@@ -18,7 +18,9 @@ export default function Reels() {
             <div className={style.labelRecentes}>
                 <LabelRecentes />
             </div>
-            <AmountPost />
+            <div className={style.divPost}>
+                <AmountPost />
+            </div>
         </div>
 
     )

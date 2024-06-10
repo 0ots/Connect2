@@ -1,3 +1,22 @@
 #Main{
     background-color: #D3D4D9;
 }
+
+.container{
+    margin-top: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sugestoes{
+    margin-top: 30px;
+}
+
+.mostrarMais{
+    margin-top: 25px;
+}
+
+.mostrarMais:hover{
+    cursor: pointer;
+}
