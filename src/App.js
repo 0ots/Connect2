@@ -1,12 +1,12 @@
-import Home from '../src/Pages/Home/Home'
-import RegisterAcount from '../src/Pages/RegisterAcount/RegisterAcount'
-import ResetPassword from '../src/Pages/ResetPassword/ResetPassword'
-import Main from '../src//Pages/Main/Main'
-import LinkSended from '../src/Pages/LinkSended/LinkSended'
+import Home from './Pages/Home/HomePage'
+import RegisterAcount from './Pages/RegisterAcount/RegisterAcountPage'
+import ResetPassword from './Pages/ResetPassword/ResetPasswordPage'
+import Main from './Pages/Main/MainPage'
+import LinkSended from './Pages/LinkSended/LinkSendedPage'
 import AccountCreated from '../src/Pages/AccountCreated/AccountCreated'
-import MyProfile from '../src/Pages/MyProfile/MyProfile'
+import MyProfile from './Pages/MyProfile/MyProfilePage'
 import Connections from './Pages/Connections/ConnectionsPage'
-import Setts from '../src/Pages/Setts/Setts'
+import Setts from './Pages/Setts/SettsPage'
 //teste
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
