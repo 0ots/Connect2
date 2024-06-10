@@ -122,6 +122,11 @@
     justify-content: center;
     flex-direction: column;
 }
+<<<<<<< HEAD:src/pages/Connections/connections.module.css
+=======
+
+
+>>>>>>> f56dc0329faf4a5cce2107d07e84609f7067d2f1:src/Pages/Main/main.module.css
 .inputProcurarConexxao{
     margin-top: 46px;
 }
@@ -129,7 +134,18 @@
     margin-top: 20px;
 }
 
+<<<<<<< HEAD:src/pages/Connections/connections.module.css
 
+=======
+.labelRecentes{
+    margin-top: 15px;
+    margin-left: 250px;
+}
+
+.inputPrimeiroPost{
+    margin-top: 15px;
+}
+>>>>>>> f56dc0329faf4a5cce2107d07e84609f7067d2f1:src/Pages/Main/main.module.css
 
 
 
@@ -147,30 +163,6 @@
     padding: 0;
 }
 
-.containerAniversario{
-    margin-top: 40px;
-}
-
-.titulo{
-    display: flex;
-    align-items: center;
-}
-
-.tituloAniversario{
-    margin-left: 12px;
-}
-
-.primeiroAniversariante{
-    margin-top: 20px;
-}
-
-.segundoAniversariante{
-    margin-top: 10px;
-}
-
-.containerSugestoes{
-    margin-top: 6px;
-}
 
 .containerConnectores{
     margin-top: auto;

@@ -1,0 +1,95 @@
+
+.containerConnexoes{
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.containerAjustes{
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.containerLogout{
+    display: flex;
+    align-items: center;
+}
+
+
+.parteFinal{
+    margin-top: auto;
+    margin-bottom: 15px;
+}
+
+.containerAcessibildades{
+    display: flex;
+}
+
+.iconAcessibilidade{
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.divisoria{
+    width: 275px;
+    height: 2px;
+    background-color: rgb(152, 152, 152);
+}
+
+
+.containerUtilidades{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.utilidades{
+    display: flex;
+    align-items: center;
+}
+
+
+.centro{
+    display: flex;
+    align-items: center;
+    margin-left: 650px;
+    margin-right: 650px;
+    width: calc(100% - 1300px);
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+
+
+.inputPostUsuario{
+    margin-top: 20px;
+}
+
+.labelRecentes{
+    margin-top: 15px;
+    margin-left: 250px;
+}
+
+.inputPrimeiroPost{
+    margin-top: 15px;
+}
+
+
+
+
+.containerConnectores{
+    margin-top: auto;
+    margin-bottom: 15px;
+}
+
+.divisoriadireita{
+    width: 310px;
+    height: 2px;
+    background-color: rgb(152, 152, 152);
+}
+
+.inputProcurarConexxao{
+    margin-top: 46px;
+}

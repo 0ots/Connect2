@@ -124,25 +124,58 @@
 }
 
 
-.inputProcurarConexxao{
-    margin-top: 46px;
+.divFotoNomeUsuario{
+    margin-top: 30px;
 }
-
-.inputPostUsuario{
-    margin-top: 20px;
+.primeiraLinhaInputs{
+    margin-top: 30px;
+    display: flex;
 }
-
-.labelRecentes{
-    margin-top: 15px;
-    margin-left: 250px;
+.inputSobrenome{
+    margin-left: 15px;
 }
-
-.inputPrimeiroPost{
-    margin-top: 15px;
+.segundaLinha{
+    margin-top: 10px;
+    display: flex;
 }
-
-
-
+.inputEstado{
+    margin-left: 15px;
+}
+.inputCidade{
+    margin-left: 15px;
+}
+.terceiraLinha{
+    margin-top: 10px;
+    display: flex;
+}
+.inputGenero{
+    margin-left: 15px;
+}
+.inputEstadoCivil{
+    margin-left: 15px;
+}
+.quartaLinha{
+    margin-top: 10px;
+    display: flex;
+}
+.inputCargo{
+    margin-left: 20px;
+}
+.quintaLinha{
+    margin-top: 10px;
+    display: flex;
+}
+.inputCurso{
+    margin-left: 17px;
+}
+.sextaLinha{
+    margin-top: 10px;
+}
+.setimaLinha{
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+}
 
 .abaLateralDireita{
     position: fixed;

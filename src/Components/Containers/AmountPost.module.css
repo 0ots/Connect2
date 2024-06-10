@@ -1,0 +1,77 @@
+.containerPai{
+    width: 600px;
+    height: 205px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.informacoesPost{
+    display: flex;
+}
+
+.FotoUsuarioLogado{
+    padding-top: 15px;
+    margin-left: 15px;
+}
+
+.primeiraLinha{
+    display: flex;
+}
+
+.nomeUsuario{
+    padding-top: 15px;
+    margin-left: 15px;
+    font-size: 18px;
+}
+
+.dataPost{
+    font-size: 12px;
+    padding-top: 15px;
+    margin-left: 277px;
+    opacity: 0.7;
+}
+
+.cidadeUsuario{
+    padding-top: 1px;
+    margin-left: 15px;
+    font-size: 14px;
+    opacity: 0.7;
+}
+
+.mesmaLinha{
+    display: flex;
+}
+
+.conteudo{
+    padding-top: 10px;
+    margin-left: 15px;
+}
+
+.opcoesPost{
+    padding-top: 10px;
+    margin-left: 113px;
+}
+
+.divisoriaPost{
+    width: 565px;
+    height: 2px;
+    background-color: rgb(215, 214, 214);
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.connectoresBotoes{
+    margin-left: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.botoes{
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+}
+
+.connectores{
+    opacity: 0.7;
+}

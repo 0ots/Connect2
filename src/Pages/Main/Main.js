@@ -1,4 +1,4 @@
-import style from './main.module.css'
+// import style from './main.module.css'
 
 import React from 'react'
 import Birthday from '../../Components/Containers/Birthday'
@@ -23,7 +23,6 @@ export default function Main() {
                     <>
                         <Birthday />
                         <FriendSuggest />
-                        <ConectorsLink/>
                     </>
                 )
             }}
