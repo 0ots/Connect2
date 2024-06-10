@@ -2,7 +2,7 @@
     position: fixed;
     top: 0;
     left: 0;
-    width: 650px;
+    width: 25%;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -11,28 +11,29 @@
     padding: 0;
 }
 
-.rightSide{
+.rightSide {
     position: fixed;
     top: 0;
     right: 0;
-    width: 650px;
+    width: 25%;
     height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 0;
     padding: 0;
+    align-items: flex-start;
 }
-
 
 .middleContainer {
     display: flex;
     align-items: center;
-    margin-left: 650px;
-    margin-right: 650px;
-    width: calc(100% - 1300px);
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 50%;
     justify-content: center;
 }
+
 
 
 .parentContainer{
