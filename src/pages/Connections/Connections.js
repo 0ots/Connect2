@@ -6,7 +6,6 @@ import TemplatePage from '../TemplatePage/TemplatePage';
 import ConectorsLink from '../../Components/Containers/ConectorLinks'
 import Reels from '../../Components/Containers/Reels'
 
-
 export default function Main() {
 
     return (

@@ -7,7 +7,6 @@ import AccountCreated from './Pages/AccountCreated/AccountCreated'
 import MyProfile from './Pages/MyProfile/MyProfile'
 import Connections from './Pages/Connections/Connections'
 import Setts from './Pages/Setts/Setts'
-//teste
 
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
