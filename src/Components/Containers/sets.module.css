@@ -1,0 +1,101 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.row{
+    width: 515px;
+    height: 2px;
+    background-color: rgb(243, 242, 242);
+    opacity: 0.4;
+    margin-top: 65px;
+}
+
+.finalRow{
+    width: 515px;
+    height: 2px;
+    background-color: rgb(243, 242, 242);
+    opacity: 0.4;
+    margin-top: 1011px;
+    position: fixed;
+    bottom: 20px; /* Margem de 20px a partir do fundo da tela */
+}
+
+.tituloAutenticacaoDoisFatores{
+    font-size: 22px;
+    margin-top: 10px;
+}
+
+.opcoes{
+    margin-top: 8px;
+    margin-left: 5%;
+}
+
+.email{
+    margin-top: 12px;
+}
+
+.titulo{
+    font-size: 18px;
+}
+
+.descricao{
+    padding-top: 12px;
+}
+
+.descricao{
+    font-size: 12px;
+    opacity: 0.5;
+}
+
+.alertaDeLogin{
+    margin-top: 20px;
+}
+
+.tituloAlertaDeLogin{
+    font-size: 22px;
+}
+
+.privacidade{
+    margin-top: 20px;
+}
+
+.tituloPrivacidade{
+    font-size: 22px;
+}
+
+.personalizacao{
+    margin-top: 20px;
+}
+
+.textArea{
+    width: 470px;
+    height: 48px;
+    resize: none; /* Desabilita o redimensionamento */
+    border: none;
+    background-color: transparent;
+}
+
+.privado{
+    margin-top: 10px;
+}
+
+.containerTelefone{
+    display: flex;
+    align-items: center;
+}
+
+.containerEmail{
+    display: flex;
+    align-items: center;
+}
+
+.options {
+    display: flex;
+    margin-right: 7px;
+}
+
+.classOption:hover {
+    cursor: pointer;
+}
